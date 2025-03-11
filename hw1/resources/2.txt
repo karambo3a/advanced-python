@@ -1,0 +1,15 @@
+ls
+mkdir
+cd
+git
+wc
+tail
+grep
+curl
+htop
+atop
+ps
+pstree
+apt-get
+reboot
+clock

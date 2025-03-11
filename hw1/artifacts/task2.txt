@@ -1,0 +1,152 @@
+1. One file
+(advanced-python-py3.12) karambo3a@karambo3a:~/study/advanced-python$ python hw1/task2.py hw1/resources/1.txt
+a
+b
+c
+d
+
+2. One file
+(advanced-python-py3.12) karambo3a@karambo3a:~/study/advanced-python$ python hw1/task2.py hw1/resources/3.txt
+       Copyright © 2023 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+       This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law.
+
+SEE ALSO
+       dircolors(1)
+
+       Full documentation <https://www.gnu.org/software/coreutils/ls>
+       or available locally via: info '(coreutils) ls invocation'
+
+GNU coreutils 9.4                                                                     April 2024                                                                                 LS(1)
+
+3. One big file
+(advanced-python-py3.12) karambo3a@karambo3a:~/study/advanced-python$ python hw1/task2.py hw1/resources/4.txt
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/
+
+# PyPI configuration file
+.pypirc
+
+4. Some files
+(advanced-python-py3.12) karambo3a@karambo3a:~/study/advanced-python$ python hw1/task2.py hw1/resources/3.txt hw1/resources/2.txt
+==> hw1/resources/3.txt <==
+       Copyright © 2023 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+       This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law.
+
+SEE ALSO
+       dircolors(1)
+
+       Full documentation <https://www.gnu.org/software/coreutils/ls>
+       or available locally via: info '(coreutils) ls invocation'
+
+GNU coreutils 9.4                                                                     April 2024                                                                                 LS(1)
+
+==> hw1/resources/2.txt <==
+tail
+grep
+curl
+htop
+atop
+ps
+pstree
+apt-get
+reboot
+clock
+
+5. Some files
+(advanced-python-py3.12) karambo3a@karambo3a:~/study/advanced-python$ python hw1/task2.py hw1/resources/1.txt hw1/resources/2.txt hw1/resources/3.txt hw1/resources/4.txt
+==> hw1/resources/1.txt <==
+a
+b
+c
+d
+
+==> hw1/resources/2.txt <==
+tail
+grep
+curl
+htop
+atop
+ps
+pstree
+apt-get
+reboot
+clock
+
+==> hw1/resources/3.txt <==
+       Copyright © 2023 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+       This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law.
+
+SEE ALSO
+       dircolors(1)
+
+       Full documentation <https://www.gnu.org/software/coreutils/ls>
+       or available locally via: info '(coreutils) ls invocation'
+
+GNU coreutils 9.4                                                                     April 2024                                                                                 LS(1)
+
+==> hw1/resources/4.txt <==
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/
+
+# PyPI configuration file
+.pypirc
+
+6. No files (stdin)
+(advanced-python-py3.12) karambo3a@karambo3a:~/study/advanced-python$ python hw1/task2.py
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+7. Empty lines file
+(advanced-python-py3.12) karambo3a@karambo3a:~/study/advanced-python$ python hw1/task2.py hw1/resources/5.txt
+
+
+
+
+
+8. Empty file
+(advanced-python-py3.12) karambo3a@karambo3a:~/study/advanced-python$ python hw1/task2.py hw1/resources/6.txt

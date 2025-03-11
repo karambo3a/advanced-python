@@ -1,0 +1,39 @@
+1. One file
+(advanced-python-py3.12) karambo3a@karambo3a:~/study/advanced-python$ python hw1/task3.py hw1/resources/3.txt
+        36        139       1481 hw1/resources/3.txt
+
+2. Some files
+(advanced-python-py3.12) karambo3a@karambo3a:~/study/advanced-python$ python hw1/task3.py hw1/resources/3.txt hw1/resources/4.txt
+        36        139       1481 hw1/resources/3.txt
+       171        444       3415 hw1/resources/4.txt
+       207        583       4896 total
+
+3. Some files
+(advanced-python-py3.12) karambo3a@karambo3a:~/study/advanced-python$ python hw1/task3.py hw1/resources/1.txt hw1/resources/2.txt hw1/resources/3.txt hw1/resources/4.txt
+         4          4          8 hw1/resources/1.txt
+        15         15         75 hw1/resources/2.txt
+        36        139       1481 hw1/resources/3.txt
+       171        444       3415 hw1/resources/4.txt
+       226        602       4979 total
+
+4. No files (stdin)
+(advanced-python-py3.12) karambo3a@karambo3a:~/study/advanced-python$ python hw1/task3.py
+jsdkhga
+iqwjdad
+sfjkh;f
+kshgow
+sjkdhgw
+skdhgw
+lksfjwqfgeff
+dsgljw
+dwjpf
+wflwf'
+        10         10         79
+
+5. Empty lines file
+(advanced-python-py3.12) karambo3a@karambo3a:~/study/advanced-python$ python hw1/task3.py hw1/resources/5.txt
+         4          0          4 hw1/resources/5.txt
+
+6. Empty file
+(advanced-python-py3.12) karambo3a@karambo3a:~/study/advanced-python$ python hw1/task3.py hw1/resources/6.txt
+         0          0          0 hw1/resources/6.txt

@@ -1,0 +1,114 @@
+1. One file
+(advanced-python-py3.12) karambo3a@karambo3a:~/study/advanced-python$ python hw1/task1.py hw1/resources/1.txt
+     1  a
+     2  b
+     3  c
+     4  d
+
+2. One files
+(advanced-python-py3.12) karambo3a@karambo3a:~/study/advanced-python$ python hw1/task1.py hw1/resources/2.txt
+     1  ls
+     2  mkdir
+     3  cd
+     4  git
+     5  wc
+     6  tail
+     7  grep
+     8  curl
+     9  htop
+    10  atop
+    11  ps
+    12  pstree
+    13  apt-get
+    14  reboot
+    15  clock
+
+
+3. One file
+(advanced-python-py3.12) karambo3a@karambo3a:~/study/advanced-python$ python hw1/task1.py hw1/resources/3.txt
+     1  LS(1)                                                                                User Commands                                                                               LS(1)
+     2
+     3  NAME
+     4         ls - list directory contents
+     5
+     6  SYNOPSIS
+     7         ls [OPTION]... [FILE]...
+     8
+     9  DESCRIPTION
+    10         List information about the FILEs (the current directory by default).  Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+    11
+    12     Exit status:
+    13         0      if OK,
+    14
+    15         1      if minor problems (e.g., cannot access subdirectory),
+    16
+    17         2      if serious trouble (e.g., cannot access command-line argument).
+    18
+    19  AUTHOR
+    20         Written by Richard M. Stallman and David MacKenzie.
+    21
+    22  REPORTING BUGS
+    23         GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+    24         Report any translation bugs to <https://translationproject.org/team/>
+    25
+    26  COPYRIGHT
+    27         Copyright © 2023 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+    28         This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law.
+    29
+    30  SEE ALSO
+    31         dircolors(1)
+    32
+    33         Full documentation <https://www.gnu.org/software/coreutils/ls>
+    34         or available locally via: info '(coreutils) ls invocation'
+    35
+    36  GNU coreutils 9.4                                                                     April 2024                                                                                 LS(1)
+
+4. No files (stdin)
+(advanced-python-py3.12) karambo3a@karambo3a:~/study/advanced-python$ python hw1/task1.py
+ogo
+     1  ogo
+wow
+     2  wow
+grep
+     3  grep
+1231
+     4  1231
+1
+     5  1
+2
+     6  2
+3
+     7  3
+
+5. Empty lines file
+(advanced-python-py3.12) karambo3a@karambo3a:~/study/advanced-python$ python hw1/task1.py hw1/resources/5.txt
+     1
+     2
+     3
+     4
+
+6. Empty file
+(advanced-python-py3.12) karambo3a@karambo3a:~/study/advanced-python$ python hw1/task1.py hw1/resources/6.txt
+
+
+7. Some files
+(advanced-python-py3.12) karambo3a@karambo3a:~/study/advanced-python$ python hw1/task1.py hw1/resources/1.txt hw1/resources/2.txt
+     1  a
+     2  b
+     3  c
+     4  d
+     5  ls
+     6  mkdir
+     7  cd
+     8  git
+     9  wc
+    10  tail
+    11  grep
+    12  curl
+    13  htop
+    14  atop
+    15  ps
+    16  pstree
+    17  apt-get
+    18  reboot
+    19  clock
