@@ -1,0 +1,6 @@
+
+services:
+  hw2-python:
+    build: .
+    volumes:
+    - ./:/app/

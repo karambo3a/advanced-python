@@ -1,14 +1,10 @@
-# этот файл относится к первой домашней работе, я неправильно его расположила
 [tool.poetry]
-name = "advanced-python"
+name = "hw2"
 version = "0.1.0"
-packages = [
-    { include = "hw1" }
-]
 
 [tool.poetry.dependencies]
 python = ">=3.12"
-click = "^8.1.6"
+latex_generator_hw = "0.1.1"
 
 [tool.poetry.group.dev.dependencies]
 black = ">=22.0.0"
