@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "hw4"
+version = "0.1.0"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+
+[tool.poetry.group.dev.dependencies]
+black = ">=22.0.0"
+flake8 = "^7.1.2"
+
+[tool.black]
+line-length = 88
+target-version = ['py312']
+
+[tool.flake8]
+max-line-length = 88
+ignore = "E203, E266, E501, W503"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

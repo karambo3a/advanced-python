@@ -1,0 +1,27 @@
+Program started
+[Thu Apr  3 03:37:20 2025] Input: QWERTY
+[Thu Apr  3 03:37:20 2025] Process A received from Main process: QWERTY
+[Thu Apr  3 03:37:20 2025] Process A processed: qwerty
+[Thu Apr  3 03:37:20 2025] Process B received from A: qwerty
+[Thu Apr  3 03:37:20 2025] Process B encoded: djregl
+[Thu Apr  3 03:37:20 2025] Main process received from B: djregl
+[Thu Apr  3 03:37:23 2025] Input: abacaBA
+[Thu Apr  3 03:37:24 2025] Input: skdvdkfv
+[Thu Apr  3 03:37:25 2025] Process A received from Main process: abacaBA
+[Thu Apr  3 03:37:25 2025] Process A processed: abacaba
+[Thu Apr  3 03:37:25 2025] Process B received from A: abacaba
+[Thu Apr  3 03:37:25 2025] Process B encoded: nonpnon
+[Thu Apr  3 03:37:25 2025] Main process received from B: nonpnon
+[Thu Apr  3 03:37:26 2025] Input: 123
+[Thu Apr  3 03:37:30 2025] Process A received from Main process: skdvdkfv
+[Thu Apr  3 03:37:30 2025] Process A processed: skdvdkfv
+[Thu Apr  3 03:37:30 2025] Process B received from A: skdvdkfv
+[Thu Apr  3 03:37:30 2025] Process B encoded: fxqiqxsi
+[Thu Apr  3 03:37:30 2025] Main process received from B: fxqiqxsi
+[Thu Apr  3 03:37:35 2025] Process A received from Main process: 123
+[Thu Apr  3 03:37:35 2025] Process A processed: 123
+[Thu Apr  3 03:37:35 2025] Process B received from A: 123
+[Thu Apr  3 03:37:35 2025] Process B encoded: 123
+[Thu Apr  3 03:37:35 2025] Main process received from B: 123
+[Thu Apr  3 03:37:39 2025] Stopping
+[Thu Apr  3 03:37:39 2025] Program stopped
